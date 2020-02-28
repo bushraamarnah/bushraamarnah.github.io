@@ -1,0 +1,227 @@
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/******************header******************/
+section.head {
+    background-color: #E7B7BD;
+}
+.contact_us {
+    background-color: #DE263D;
+}
+.bord ul {
+    margin-top: 9px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-right: 0px;
+    position: absolute;
+    font-size: 17px;
+}
+.bord li{
+	display: inline-block;
+}
+.bord a {
+    color: black;
+    padding-left: 12px;
+}
+.bord h4 {
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+}
+.main_menu a {
+    color: #000000b8;
+    font-size: 18px;
+    margin-left: 22px;
+}
+.logo img {
+    height: 106px;
+    width: 65%;
+    display: inline-block;
+}
+.main_menu {
+    margin-top: 52px;
+    margin-left: 185px;
+}
+.main_menu a:hover {
+    color: #DE263D;
+    text-decoration-color: black;
+}
+/****************slider***************************************/
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides img {
+    width: 100%;
+    height: 411px;
+}
+.text {
+  color: black;
+  font-size: 38px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  opacity: 1.5;
+}
+img{
+    opacity: 1.5;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1.5}
+}
+
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1.5}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/********************************footer*******************************/
+.footer {
+    background-color: #DE263D;
+    color: white;
+}
+.social_media {
+    display: inline-block;
+    width: 414px;
+    margin-left: 74px;
+    margin-bottom: 7px;
+}
+.social_media h5 {
+    display: inline-block;
+}
+.social_media ul {
+    display: inline-block;
+    padding-left: 0;
+}
+.social_media li {
+    margin-left: 29px;
+    display: contents;
+    color: #58595b;
+}
+.social_media a {
+    color: #58595b;
+    margin-left: 17px;
+    background: white;
+    padding: 16px;
+    border-radius: 120px;
+    font-size: 14px;
+}
+.menu_footer {
+    display: inline-block;
+    border-left: 1px solid black;
+   padding-right: 40px;
+    margin-top: 12px;
+}
+.menu_footer li {
+    display: block;
+}
+.menu_footer2 {
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 40px;
+    margin-top: 12px;
+}
+.menu_footer2 li {
+    display: block;
+}
+.logo_footer img {
+    display: inline-block;
+    height: 208px;
+    padding-left: 40px;
+}
+.logo_footer {
+    display: inline-block;
+}
+
+/******************************forms_data*************************************/
+section.forms_data {
+    margin-left: 40px;
+}
+
+/******************************************************************************/
+.title_random_cat {
+    margin-top: 43px;
+    text-align: center;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div#cats_container img {
+    display: inline-block;
+    width: 315px;
+    height: 250px;
+    position: relative;
+}
+.col {
+    width: 315px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+    border: 4px solid white;
+    display: inline-block;
+    margin-left: 63px;
+}
+.col:hover  {
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+/***************************table******************************/
+#sub {
+    background: #e40d32e6;
+    color: white;
+    border: #e40d32e6;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 11px;
+}
+#sub_data_table{
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.tableDiv {
+    margin: 23px;
+}
+#photo_of_cats img {
+    width: 315px;
+    height: 250px;
+}
